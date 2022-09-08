@@ -1,0 +1,9 @@
+<!--component/dialog.wxml-->
+<view class='wx_dialog_container' hidden="{{!dialogVisible}}">
+    <view class='wx-dialog' style="width:{{width||'480rpx'}}">
+        <!-- <view class='wx-dialog-title'>{{ title }}</view> -->
+        <view class='wx-dialog-content'>
+                        <slot name="content"></slot>
+                </view>
+    </view>
+</view> 

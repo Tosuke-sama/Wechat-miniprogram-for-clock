@@ -1,0 +1,31 @@
+/* component/dialog.wxss */
+.wx_dialog_container {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.wx-dialog {
+  position: fixed;
+  z-index: 5000;
+  width: 480rpx;
+  border-radius: 8rpx;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: #FFFFFF;
+  text-align: center;
+  overflow: hidden;
+}
+
+.wx-dialog-content {
+  padding: 20rpx 30rpx;
+  word-wrap: break-word;
+  word-break: break-all;
+  max-height: 70vh;
+  overflow-y: auto;
+}

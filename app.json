@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/demo1/demo1",
+    "pages/mine/mine",
+    "pages/search/search",
+    "pages/clock/clock"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#FFC0CB",
+    "navigationBarTitleText": "Wrong Answer",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#FFB6C1"
+  },
+  "tabBar": {
+    "color": "#FFB6C1",
+    "selectedColor": "#DC143C",
+    "backgroundColor": "whlie",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "tubiao/place.png",
+        "selectedIconPath": "tubiao/place.png"
+      },
+      {
+        "pagePath": "pages/clock/clock",
+        "text": "打卡",
+        "iconPath": "tubiao/place.png",
+        "selectedIconPath": "tubiao/place.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "tubiao/place.png",
+        "selectedIconPath": "tubiao/place.png"
+      }
+    ]
+  },
+  "permission": {
+		"scope.userLocation": {
+			"desc": "您的位置信息将用于小程序考勤签到功能"
+		}
+	},
+	"requiredPrivateInfos":[
+		"getLocation"
+	],
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

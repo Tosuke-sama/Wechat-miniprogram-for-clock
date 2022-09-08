@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "协会打卡",
+  "usingComponents": {
+    "my-dialog":"../../component/dialog/dialog"
+  }
+}
